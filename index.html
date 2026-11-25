@@ -10,12 +10,12 @@
   <meta property="og:title" content="PageHabit — Premium EPUB Reader"/>
   <meta property="og:description" content="Read classics, share books, track your habits. A beautiful, distraction-free reading experience."/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://PhaNtoM-GHosT-11101.github.io/reading-habit-app/"/>
-  <meta property="og:image" content="https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/reading-habit-app/main/og-image.png"/>
+  <meta property="og:url" content="https://phantom-ghost-11101.github.io/pagehabit/"/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/pagehabit/main/og-image.png"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="PageHabit — Premium EPUB Reader"/>
   <meta name="twitter:description" content="Read classics, share books, track your habits. A beautiful, distraction-free reading experience."/>
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/reading-habit-app/main/og-image.png"/>
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/pagehabit/main/og-image.png"/>
   <meta name="keywords" content="epub reader, ebooks, reading tracker, habit tracker, pwa, project gutenberg, free books"/>
   <title>PageHabit — Premium EPUB Reader</title>
   <link rel="manifest" href="manifest.json"/>
@@ -286,7 +286,7 @@ button{font-family:var(--font-ui);background:none;border:none;color:var(--text);
         <p>The curated <b>Library</b> contains only public-domain works from Project Gutenberg (published 1929 or earlier in the US).</p>
         <p>The <b>Community</b> tab is a user-uploaded space. Uploaders are responsible for the files they share, and PageHabit does not host them for profit.</p>
         <p>If you are a rights holder and believe a community upload infringes your copyright, file a report using the flag button on the book, or open a GitHub issue at
-        <a href="https://github.com/PhaNtoM-GHosT-11101/reading-habit-app/issues" target="_blank" rel="noopener">the repository</a>
+        <a href="https://github.com/PhaNtoM-GHosT-11101/pagehabit/issues" target="_blank" rel="noopener">the repository</a>
         with the book title and your contact details. Compliant takedowns are processed promptly.</p>
       </div>
       <div class="modal-actions">
@@ -505,9 +505,9 @@ onAuthStateChanged(auth,async(user)=>{
 
 if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(e=>console.log('SW err',e));}
 
-const BOOKS_INDEX='https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/reading-habit-app/main/books.json';
-const BOOKS_BASE='https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/reading-habit-app/main/books/';
-const COVERS_BASE='https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/reading-habit-app/main/covers/';
+const BOOKS_INDEX='https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/pagehabit/main/books.json';
+const BOOKS_BASE='https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/pagehabit/main/books/';
+const COVERS_BASE='https://raw.githubusercontent.com/PhaNtoM-GHosT-11101/pagehabit/main/covers/';
 
 /* ── STATE ── */
 let S={

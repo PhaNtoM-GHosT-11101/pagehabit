@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-f0a500?style=for-the-badge&logo=githubpages&logoColor=black)](https://PhaNtoM-GHosT-11101.github.io/reading-habit-app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-f0a500?style=for-the-badge&logo=githubpages&logoColor=black)](https://phantom-ghost-11101.github.io/pagehabit)
 [![PWA](https://img.shields.io/badge/PWA-Ready-e0af68?style=for-the-badge&logo=pwa&logoColor=black)](#)
 [![Firebase](https://img.shields.io/badge/Firebase-Cloud%20Synced-f0a500?style=for-the-badge&logo=firebase&logoColor=black)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-e0af68?style=for-the-badge)](#)
